@@ -21,7 +21,7 @@ div.chatlogger pre, div.chatlogger dt, div.chatlogger, div.explog pre{
   word-wrap      :break-word !important;
   word-break     :break-all;
   font-size      :100%;
-  font-size      :20px;
+  font-size      :15px;
   line-height    :1.5;
   vertical-align :baseline;
 }
@@ -47,8 +47,8 @@ div.chatlogger div.explog{
 
 /*注釈＆発言内画像*/
 div.chatlogger div.explog img, div.chatlogger dd img{
-  max-height    :400px;
-  max-width     :400px;
+  max-height    :300px;
+  max-width     :300px;
   margin        :5px;
   border-radius :10px;
   border        :white 2px solid;
