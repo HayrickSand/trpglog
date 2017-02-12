@@ -28,7 +28,7 @@ div.chatlogger pre, div.chatlogger dt, div.chatlogger, div.explog pre{
 
 /*チャットログ全体*/
 div.chatlogger{
-  max-width   :300px;
+  max-width   :850px;
   margin      :0 auto;
   font-family :'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
   font-size   :15px;
