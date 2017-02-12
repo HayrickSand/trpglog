@@ -1,0 +1,150 @@
+﻿@charset "UTF-8";
+
+/*リセット*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{ margin :0; padding :0; border :0; outline :0; font-size :100%; vertical-align :baseline; background :transparent }
+
+body{ line-height :1 }
+
+a{ margin :0; padding :0; font-size :100%; vertical-align :baseline; background :transparent }
+
+/*文字系要素設定*/
+
+pre{
+  white-space :-pre-wrap;
+  white-space :-o-pre-wrap;
+  white-space :pre-wrap;
+  word-wrap   :break-word;
+}
+
+div.chatlogger pre, div.chatlogger dt, div.chatlogger, div.explog pre{
+  font-family    :'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
+  word-wrap      :break-word !important;
+  word-break     :break-all;
+  font-size      :100%;
+  font-size      :20px;
+  line-height    :1.5;
+  vertical-align :baseline;
+}
+
+/*チャットログ全体*/
+div.chatlogger{
+  max-width   :850px;
+  margin      :0 auto;
+  font-family :'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'Osaka', sans-serif;
+  font-size   :15px;
+  word-wrap   :break-word;
+}
+
+/*注釈*/
+div.chatlogger div.explog{
+  margin             :0em 1em 1.5em 1em;
+  padding            :5px;
+  border-radius      :5px;
+  box-shadow         :3px 3px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow    :3px 3px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow :3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*注釈＆発言内画像*/
+div.chatlogger div.explog img, div.chatlogger dd img{
+  max-height    :400px;
+  max-width     :400px;
+  margin        :5px;
+  border-radius :10px;
+  border        :white 2px solid;
+}
+
+/*発言*/
+div.chatlogger dd{
+  width         :96%;
+  margin        :0 5px;
+  border        :solid 2px;
+  border-radius :10px;
+  padding       :1.3em 5px 5px 0px;
+  position      :relative;
+  top           :-1.3em;
+  z-index       :0;
+}
+
+/*名前画像*/
+div.chatlogger dt img{
+  width          :5em;
+  height         :5em;
+  border         :solid 1px;
+  vertical-align :middle;
+  margin-bottom  :0.1em;
+}
+
+/*名前*/
+div.chatlogger dt{
+  width         :25%;
+  line-height   :1;
+  border        :solid 2px;
+  margin-left   :5px;
+  line-height   :2em;
+  padding-left  :0.5em;
+  border-radius :10px;
+  position      :relative;
+  z-index       :1;
+  overflow      :hidden;
+  text-overflow :clip;
+}
+
+/*ゲージ※文字高さ1じゃないと崩れる*/
+div.chatlogger .html5jp-progress{
+  width       :101px;
+  line-height :1 !important;
+  margin      :0 5px;
+  display     :inline-block;
+}
+
+/*見出しｓ*/
+div.chatlogger h1{
+  border-left   :double 30px #09f;
+  border-bottom :solid 2px #09f;
+  line-height   :1.2;
+  padding       :5px 0 0 20px;
+  font-size     :50px;
+  margin-bottom :20px;
+  border-radius :10px;
+}
+
+div.chatlogger h2{
+  border-left   :solid 15px #09f;
+  border-bottom :solid 2px #09f;
+  line-height   :1.2;
+  padding       :5px 0 0 20px;
+  font-size     :35px;
+  margin-bottom :20px;
+  border-radius :5px;
+}
+
+div.chatlogger h3{
+  border-left   :solid 10px #09f;
+  line-height   :1.2;
+  padding       :5px 0 0 15px;
+  font-size     :20px;
+  margin-bottom :20px;
+}
+
+div.chatlogger h4{
+  line-height   :1.2;
+  font-size     :20px;
+  margin-bottom :10px;
+}
+
+div.chatlogger h4{
+  line-height   :1.2;
+  font-size     :20px;
+  margin-bottom :10px;
+}
+
+div.chatlogger h5{
+  line-height :1.2;
+  font-size   :20px;
+}
+
+div.chatlogger h6{
+  line-height :1.2;
+  font-size   :17px;
+}
